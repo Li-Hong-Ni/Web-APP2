@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% block body %}
+
+<h1 align="center" >欢迎使用成语词典</h1>
+
+<form method='POST' action='/search4'>
+<table align="center">
+<p style="text-align:center"></p>
+<p style="text-align:center"></p>
+
+	<tr>
+		<td>输入成语：</td><td><input name='word' type='TEXT' width='60' " style="width:250px;height:25px;">&nbsp;<input value='查询' type='SUBMIT' style="background: rgba(255, 255, 255, 0.7);"></td>
+	</tr>
+</table>
+
+</form>
+
+{% endblock %}
